@@ -6,7 +6,8 @@
 		android:id="@+id/btn_add_alarm"
 		android:title="Add"
 		android:icon="@android:drawable/ic_menu_add"
-		android:onClick="addAlarm"/>
+		android:showAsAction="always"
+		android:onClick="onAddAlarm"/>
 
 	<item
 		android:id="@+id/btn_settings"

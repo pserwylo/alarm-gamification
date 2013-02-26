@@ -24,19 +24,9 @@ public class AlarmGamification extends Activity
 		return true;
 	}
 
-	protected void addAlarm( MenuItem item )
+	public void onAddAlarm( MenuItem item )
 	{
-		// TODO: Implement this...
-	}
-
-	protected void viewSettings( MenuItem item )
-	{
-		// TODO: Implement this...
-	}
-
-	protected void editAlarm( MenuItem item )
-	{
-		// TODO: Implement this...
+		// TODO: Send user to an activity where they enter the details for their alarm, then save those details somehow.	
 	}
 
 }
